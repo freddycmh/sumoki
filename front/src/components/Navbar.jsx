@@ -70,7 +70,7 @@ const Navbar = () => {
           >
             Menu
           </Link>
-          <Link
+          {/* <Link
             to="/info"
             className={`${
               isActive("/info")
@@ -79,7 +79,7 @@ const Navbar = () => {
             } block md:inline-block px-4 py-2 md:p-0`}
           >
             Info
-          </Link>
+          </Link> */}
           <Link
             to="/careers"
             className={`${
@@ -96,7 +96,7 @@ const Navbar = () => {
           >
             Reservation
           </a>
-          <Link
+          {/* <Link
             to="/egift-card"
             className={`${
               isActive("/egift-card")
@@ -105,7 +105,7 @@ const Navbar = () => {
             } block md:inline-block px-4 py-2 md:p-0`}
           >
             E-Gift Card
-          </Link>
+          </Link> */}
         </div>
       </div>
     </nav>
