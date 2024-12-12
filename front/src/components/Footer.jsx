@@ -22,7 +22,7 @@ function Footer() {
             </svg>
           </a>
           <ul className="text-base flex items-center justify-center flex-col gap-5 md:flex-row md:gap-8 transition-all duration-500 py-12 mb-8 border-b border-gray-700">
-            <li>
+            {/* <li>
               <a href="#" className="text-gray-300 hover:text-gray-100">
                 Sumoki
               </a>
@@ -31,8 +31,8 @@ function Footer() {
               <a href="#" className="text-gray-300 hover:text-gray-100">
                 Products
               </a>
-            </li>
-            <li>
+            </li> */}
+            {/* <li>
               <a href="#" className="text-gray-300 hover:text-gray-100">
                 Resources
               </a>
@@ -46,33 +46,33 @@ function Footer() {
               <a href="#" className="text-gray-300 hover:text-gray-100">
                 Support
               </a>
-            </li>
+            </li> */}
           </ul>
           <div className="flex space-x-8 justify-center items-center mb-10">
-            <a
+            {/* <a
               href="#"
               className="block text-gray-300 transition-all duration-500 hover:text-indigo-400"
             >
               <AiFillTwitterCircle size={25} />
-            </a>
+            </a> */}
             <a
               href="https://www.instagram.com/sumoki_ca"
               className="block text-gray-300 transition-all duration-500 hover:text-indigo-400"
             >
               <AiFillInstagram size={25} />
             </a>
-            <a
+            {/* <a
               href="#"
               className="block text-gray-300 transition-all duration-500 hover:text-indigo-400"
             >
               <AiFillFacebook size={25} />
-            </a>
-            <a
+            </a> */}
+            {/* <a
               href="#"
               className="block text-gray-300 transition-all duration-500 hover:text-indigo-400"
             >
               <AiFillYoutube size={25} />
-            </a>
+            </a> */}
           </div>
           <span className="text-base text-gray-400 text-center block">
             ©
@@ -80,7 +80,9 @@ function Footer() {
               {" "}
               Sumoki
             </a>{" "}
-            2024, All rights reserved.
+            2024,
+            <br />
+            All rights reserved.
           </span>
         </div>
       </div>

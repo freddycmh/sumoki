@@ -26,7 +26,7 @@ export const Menu = () => {
     }));
   };
   return (
-    <div className="flex flex-col items-center min-h-screen bg-gradient-to-br from-black via-gray-800 to-red-800 ">
+    <div className="flex flex-col items-center min-h-screen bg-gradient-to-br from-black via-gray-900 to-black ">
       {/* <Search /> */}
 
       <div className="w-full max-w-screen-lg px-4 mt-24">
@@ -66,14 +66,14 @@ export const Menu = () => {
         })}
       </div>
 
-      <Modal
+      {/* <Modal
         isOpen={isModalOpen}
         onClose={closeModal}
         img={modalContent.img}
         title={modalContent.title}
         description={modalContent.description}
         price={modalContent.price}
-      />
+      /> */}
     </div>
   );
 };

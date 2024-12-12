@@ -80,6 +80,12 @@ const Navbar = () => {
           >
             Info
           </Link> */}
+          <a
+            href="https://www.opentable.ca/restref/client/?restref=1369162&lang=en-CA&ot_source=Restaurant%20website&corrid=5bf72732-61ae-4212-819f-e4966c7fa423"
+            className="block md:inline-block px-4 py-2 md:p-0 hover:text-gray-800 dark:hover:text-gray-200"
+          >
+            Reservation
+          </a>
           <Link
             to="/careers"
             className={`${
@@ -90,12 +96,7 @@ const Navbar = () => {
           >
             Careers
           </Link>
-          <a
-            href="https://www.opentable.ca/restref/client/?restref=1369162&lang=en-CA&ot_source=Restaurant%20website&corrid=5bf72732-61ae-4212-819f-e4966c7fa423"
-            className="block md:inline-block px-4 py-2 md:p-0 hover:text-gray-800 dark:hover:text-gray-200"
-          >
-            Reservation
-          </a>
+
           {/* <Link
             to="/egift-card"
             className={`${
