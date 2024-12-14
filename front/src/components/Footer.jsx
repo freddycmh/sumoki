@@ -80,9 +80,9 @@ function Footer() {
               {" "}
               Sumoki
             </a>{" "}
-            2024,
+            2024
             <br />
-            All rights reserved.
+            All rights reserved
           </span>
         </div>
       </div>

@@ -38,8 +38,8 @@ const Careers = () => {
         <div className="container mx-auto text-center">
           <h2 className="text-2xl font-semibold text-black">We're Hiring!</h2>
           <p className="text-lg mt-4 text-gray-800">
-            If you're interested in one of our open positions, start by applying
-            here and attaching your resume. You can also send us your resume to:
+            If you’d like to work with us, please send an email with your resume
+            and availability to:
           </p>
           <a
             href="sumokicorp@gmail.com"
