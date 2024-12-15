@@ -27,17 +27,12 @@ const App = () => {
 const AppContent = () => {
   const location = useLocation();
 
-  // Add paths where Navbar and Footer should be hidden
-  const hideNavbarAndFooterRoutes = [];
-
-  // Check if the current route is in the "hide" list
-  const shouldHideNavbarAndFooter = hideNavbarAndFooterRoutes.includes(
-    location.pathname
-  );
+  // Check if the current route is "/menu" to hide the Footer
+  const shouldHideFooter = location.pathname === "/menu";
 
   return (
     <div>
-      {!shouldHideNavbarAndFooter && <Navbar />}
+      <Navbar /> {/* Navbar is always rendered */}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
@@ -50,7 +45,8 @@ const AppContent = () => {
         {/* Add a fallback for invalid routes */}
         <Route path="*" element={<div>Page Not Found</div>} />
       </Routes>
-      {!shouldHideNavbarAndFooter && <Footer />}
+      {/* Conditionally render Footer */}
+      {!shouldHideFooter && <Footer />}
     </div>
   );
 };
