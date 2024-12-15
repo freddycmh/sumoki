@@ -10,7 +10,7 @@ const Navbar = () => {
   const isActive = (path) => location.pathname === path;
 
   return (
-    <nav className="bg-white shadow dark:bg-black">
+    <nav className="fixed top-0 left-0 w-full bg-white shadow dark:bg-black z-50">
       <div className="container mx-auto flex items-center justify-between p-6 text-gray-600 capitalize dark:text-gray-300">
         {/* Logo on the left */}
         <Link to="/">
@@ -70,16 +70,6 @@ const Navbar = () => {
           >
             Menu
           </Link>
-          {/* <Link
-            to="/info"
-            className={`${
-              isActive("/info")
-                ? "text-gray-800 dark:text-gray-200 border-b-2 border-white"
-                : "hover:text-gray-800 dark:hover:text-gray-200 hover:border-white"
-            } block md:inline-block px-4 py-2 md:p-0`}
-          >
-            Info
-          </Link> */}
           <a
             href="https://www.opentable.ca/restref/client/?restref=1369162&lang=en-CA&ot_source=Restaurant%20website&corrid=5bf72732-61ae-4212-819f-e4966c7fa423"
             className="block md:inline-block px-4 py-2 md:p-0 hover:text-gray-800 dark:hover:text-gray-200"
@@ -96,17 +86,6 @@ const Navbar = () => {
           >
             Careers
           </Link>
-
-          {/* <Link
-            to="/egift-card"
-            className={`${
-              isActive("/egift-card")
-                ? "text-gray-800 dark:text-gray-200 border-b-2 border-white"
-                : "hover:text-gray-800 dark:hover:text-gray-200 hover:border-white"
-            } block md:inline-block px-4 py-2 md:p-0`}
-          >
-            E-Gift Card
-          </Link> */}
         </div>
       </div>
     </nav>

@@ -28,7 +28,7 @@ const AppContent = () => {
   const location = useLocation();
 
   // Add paths where Navbar and Footer should be hidden
-  const hideNavbarAndFooterRoutes = ["/menu"];
+  const hideNavbarAndFooterRoutes = [];
 
   // Check if the current route is in the "hide" list
   const shouldHideNavbarAndFooter = hideNavbarAndFooterRoutes.includes(
