@@ -13,7 +13,7 @@ const Home = () => {
         >
           <div className="absolute inset-0 bg-black bg-opacity-50 flex justify-center items-center">
             <div className="text-center text-white">
-              <h1 className="text-5xl font-bold">Sumoki Yakitori - Bar</h1>
+              <h1 className="text-5xl font-bold">Sumoki</h1>
               <p className="mt-4 text-lg">
                 Experience authentic Japanese cuisine and vibrant flavors
               </p>
@@ -30,7 +30,7 @@ const Home = () => {
       {/* About Section */}
       <section className="py-16 px-6">
         <h2 className="text-3xl font-semibold text-center mb-8">
-          Welcome to Sumoki Yakitori
+          Welcome to Sumoki
         </h2>
         <p className="text-center max-w-2xl mx-auto text-lg">
           At Sumoki Yakitori, we bring the authentic taste of Japanese yakitori
