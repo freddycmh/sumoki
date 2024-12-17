@@ -18,7 +18,7 @@ const Search = ({ categories }) => {
 
   return (
     <div className="fixed bottom-10 left-1/2 transform -translate-x-1/2 w-[95%] sm:max-w-md md:max-w-lg lg:max-w-xl bg-white dark:bg-black rounded-full shadow-lg p-2 z-50">
-      <div className="flex items-center justify-center space-x-6 overflow-x-auto whitespace-nowrap">
+      <div className="flex items-center justify-center space-x-6 overflow-x-hidden sm:overflow-x-auto whitespace-nowrap">
         <button
           onClick={() => handleCategorySelect("All")}
           className={`px-3 py-1 font-medium border-b-2 ${
